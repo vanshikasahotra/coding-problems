@@ -1,9 +1,13 @@
+//hash table :It is an array to store a data and one of the type of data structures
+//Hash function : it is a function that can be used to map dataset of fixed size which falls into the hash function the values returned by hash function are called hash codes,hash values and hash sum
+//Hashing :In hashing ,large keys are converted into small ones by using hash function and then values are stored in data structures are called hash function  
+
 #include <iostream>
 #include <math.h>
 using namespace std;
 #define MAX 1000
 
-bool hashTable[MAX+1][2];
+bool hashTable[MAX+1][2]; //
 
 bool search(int x){
     if(x>=0){
